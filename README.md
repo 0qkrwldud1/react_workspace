@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 📝 React Mini-Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+소플의 처음만난 리액트 - 미니 블로그 만들기 실습프로젝트
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **글목록 보기 기능**
+- **글 보기 기능**
+- **댓글보기 기능**
+- **글 작성 기능**
+- **댓글 작성 기능**
 
-### `npm start`
+## 🛠️ Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+다음 단계를 따라 로컬 환경에 프로젝트를 설정하세요:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/react-mini-blog.git
+    cd react-mini-blog
+    ```
 
-### `npm test`
+2. **Install dependencies**
+    ```bash
+    npm install --save react-router-dom styled-components
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Run the development server**
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+애플리케이션은 `http://localhost:3000`에서 확인할 수 있습니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📚 Configuration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **글 작성 화면**: 제목입력, 내용입력
+2. **메인화면**: 글작성 버튼, 글
+3. **글 보기화면**: 글제목, 글내용, 댓글, 댓글 내용입력, 댓글작성 완료 버튼
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 References
+- [소플의 처음 만난 리액트 실습 프로젝트 (미니 블로그)]([https://reactjs.org/docs/getting-started.html](https://github.com/soaple/mini-blog))
